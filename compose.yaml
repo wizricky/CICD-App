@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: .
+      target: final
+    ports:
+      - 8080:8080
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=tcp:sqlgymequipmentdb.database.windows.net,1433;Initial Catalog=GymEquipmentDB;Persist Security Info=False;User ID=${DB_USER};Password=${DB_PASSWORD};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;
+    networks:
+      - app-network
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    restart: always
+    environment:
+      SA_PASSWORD: ${DB_PASSWORD}
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - db-data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "sqlcmd -S localhost -U SA -P ${DB_PASSWORD} -Q 'SELECT 1'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+volumes:
+  db-data:
+
+networks:
+  app-network:
+

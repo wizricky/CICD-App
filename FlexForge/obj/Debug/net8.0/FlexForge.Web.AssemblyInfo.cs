@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlexForge.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fd6ecc7635ff9458d7803346472a0c1672b02cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2287b3408d10ef482282f2365b92ab8952a47a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlexForge.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlexForge.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

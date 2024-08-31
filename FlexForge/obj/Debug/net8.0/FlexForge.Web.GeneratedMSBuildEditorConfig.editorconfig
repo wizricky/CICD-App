@@ -17,115 +17,143 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FlexForge.Web
 build_property.RootNamespace = FlexForge.Web
-build_property.ProjectDir = C:\Users\rkimov\Desktop\flexforge\FlexForge\
+build_property.ProjectDir = C:\Windows\System32\CICD-App\FlexForge\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rkimov\Desktop\flexforge\FlexForge
+build_property.MSBuildProjectDirectory = C:\Windows\System32\CICD-App\FlexForge
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Home/Index.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/FavoriteProducts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVQcm9kdWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Products/AddToCart.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Products/AddToCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQWRkVG9DYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Products/Create.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Products/Delete.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Products/Details.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Products/Edit.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Products/Index.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Shared/Error.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Shared/_LoginPartial.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/ShoppingCarts/Create.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/ShoppingCarts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/ShoppingCarts/Delete.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/ShoppingCarts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/ShoppingCarts/Details.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/ShoppingCarts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/ShoppingCarts/Edit.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/ShoppingCarts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/ShoppingCarts/Index.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/ShoppingCarts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/ShoppingCarts/SuccessPayment.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/ShoppingCarts/SuccessPayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0c1xTdWNjZXNzUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/_ViewImports.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/SubCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/SubCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/_ViewStart.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rkimov/Desktop/flexforge/FlexForge/Views/Shared/_Layout.cshtml]
+[C:/Windows/System32/CICD-App/FlexForge/Views/Shared/_FilterSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GaWx0ZXJTaWRlQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-oflgvkeqke
+
+[C:/Windows/System32/CICD-App/FlexForge/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9cprkhpwo9

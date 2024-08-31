@@ -2965,11 +2965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Services\\FlexForge.Services.csproj",
+      "projectUniqueName": "C:\\Windows\\System32\\CICD-App\\FlexForge.Services\\FlexForge.Services.csproj",
       "projectName": "FlexForge.Services",
-      "projectPath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Services\\FlexForge.Services.csproj",
+      "projectPath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Services\\FlexForge.Services.csproj",
       "packagesPath": "C:\\Users\\rkimov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Services\\obj\\",
+      "outputPath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rkimov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2986,11 +2986,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Domain\\FlexForge.Domain.csproj": {
-              "projectPath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Domain\\FlexForge.Domain.csproj"
+            "C:\\Windows\\System32\\CICD-App\\FlexForge.Domain\\FlexForge.Domain.csproj": {
+              "projectPath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Domain\\FlexForge.Domain.csproj"
             },
-            "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Repository\\FlexForge.Repository.csproj": {
-              "projectPath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Repository\\FlexForge.Repository.csproj"
+            "C:\\Windows\\System32\\CICD-App\\FlexForge.Repository\\FlexForge.Repository.csproj": {
+              "projectPath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Repository\\FlexForge.Repository.csproj"
             }
           }
         }
@@ -3025,7 +3025,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

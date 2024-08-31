@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlexForge.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c68e4c3969a15439cf9b7895a2203707c7e3f3d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2287b3408d10ef482282f2365b92ab8952a47a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlexForge.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlexForge.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

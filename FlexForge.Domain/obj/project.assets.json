@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Domain\\FlexForge.Domain.csproj",
+      "projectUniqueName": "C:\\Windows\\System32\\CICD-App\\FlexForge.Domain\\FlexForge.Domain.csproj",
       "projectName": "FlexForge.Domain",
-      "projectPath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Domain\\FlexForge.Domain.csproj",
+      "projectPath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Domain\\FlexForge.Domain.csproj",
       "packagesPath": "C:\\Users\\rkimov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Domain\\obj\\",
+      "outputPath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rkimov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -879,7 +879,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

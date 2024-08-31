@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R//Fhp3Iw26xjM+cSk8dLD6IpIvITf560gFOynibsiHHVOLIYKfgj6Z1pbetdV2KPP09XKFufxCave9EzeG1Bg==",
+  "dgSpecHash": "k/c5/gsqGRk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Domain\\FlexForge.Domain.csproj",
+  "projectFilePath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Domain\\FlexForge.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rkimov\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.7\\microsoft.aspnetcore.cryptography.internal.8.0.7.nupkg.sha512",
     "C:\\Users\\rkimov\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.7\\microsoft.aspnetcore.cryptography.keyderivation.8.0.7.nupkg.sha512",

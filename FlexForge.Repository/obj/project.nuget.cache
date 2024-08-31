@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UIyiDt9TqYrw+fzQLrere986Uc4Sz0bseKcKwYzfIYnIgoxh7lED8wQM/OO1AVmUEwEhUlNg+LD4LOI/sEDD8g==",
+  "dgSpecHash": "dkAG3kf7++M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rkimov\\Desktop\\flexforge\\FlexForge.Repository\\FlexForge.Repository.csproj",
+  "projectFilePath": "C:\\Windows\\System32\\CICD-App\\FlexForge.Repository\\FlexForge.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rkimov\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rkimov\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
