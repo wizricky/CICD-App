@@ -13,7 +13,8 @@ WORKDIR /source/FlexForge
 ARG TARGETARCH
 RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
     dotnet restore FlexForge.sln \
- && dotnet publish FlexForge.Web.csproj -c Release -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
+ && dotnet publish FlexForge.Web.csproj -c Release -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app \
+ && echo "Build completed successfully!" # Added message for testing
 
 # Final stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS final
@@ -33,3 +34,6 @@ USER $APP_UID
 
 # Specify the entry point for the application
 ENTRYPOINT ["dotnet", "FlexForge.Web.dll"]
+
+# Optional: add a simple command to test
+RUN echo "Final stage setup complete" # Added message for testing
