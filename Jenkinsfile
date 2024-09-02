@@ -19,7 +19,9 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image
-                    docker.build("$DOCKER_IMAGE:${env.BUILD_ID}")
+                    def image = docker.build("${DOCKER_IMAGE}:${env.BUILD_ID}")
+                    // Tag the image for Docker Hub
+                    image.tag("${DOCKER_IMAGE}:latest")
                 }
             }
         }
@@ -28,8 +30,10 @@ pipeline {
             steps {
                 script {
                     // Log in to DockerHub and push the image
-                    docker.withRegistry("https://$REGISTRY", DOCKERHUB_CREDENTIALS) {
-                        docker.image("$DOCKER_IMAGE:${env.BUILD_ID}").push()
+                    docker.withRegistry("https://${REGISTRY}", DOCKERHUB_CREDENTIALS) {
+                        // Push both the versioned and latest tags
+                        docker.image("${DOCKER_IMAGE}:${env.BUILD_ID}").push()
+                        docker.image("${DOCKER_IMAGE}:latest").push()
                     }
                 }
             }
@@ -39,7 +43,8 @@ pipeline {
     post {
         always {
             // Clean up the local Docker image after pushing
-            sh 'docker rmi $DOCKER_IMAGE:${env.BUILD_ID} || true'
+            sh 'docker rmi ${DOCKER_IMAGE}:${env.BUILD_ID} || true'
+            sh 'docker rmi ${DOCKER_IMAGE}:latest || true'
         }
     }
 }
