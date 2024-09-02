@@ -1,10 +1,11 @@
 pipeline {
     agent any
 
+    def image
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         DOCKER_IMAGE = "ristekimov/cicdapp"
-        REGISTRY = "docker.io"
+        REGISTRY = "https://registry.hub.docker.com"
     }
 
     stages {
@@ -19,9 +20,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image
-                    def image = docker.build("${DOCKER_IMAGE}:${env.BUILD_ID}")
-                    // Tag the image for Docker Hub
-                    image.tag("${DOCKER_IMAGE}:latest")
+                    image = docker.build("${DOCKER_IMAGE}:${env.BUILD_ID}")
                 }
             }
         }
@@ -32,8 +31,8 @@ pipeline {
                     // Log in to DockerHub and push the image
                     docker.withRegistry("https://${REGISTRY}", DOCKERHUB_CREDENTIALS) {
                         // Push both the versioned and latest tags
-                        docker.image("${DOCKER_IMAGE}:${env.BUILD_ID}").push()
-                        docker.image("${DOCKER_IMAGE}:latest").push()
+                        image.push("${DOCKER_IMAGE}:${env.BUILD_ID}")
+                        image.push("${DOCKER_IMAGE}:latest")
                     }
                 }
             }
