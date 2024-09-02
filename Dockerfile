@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 # comment to test pipeline
+# one more
 
 # Build stage
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
