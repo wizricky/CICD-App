@@ -9,7 +9,7 @@ pipeline {
     stages { 
         stage('Cloning our Git') { 
             steps { 
-                    git 'https://github.com/wizricky/CICD-App.git' 
+                    git 'https://github.com/wizricky/CICD-App' 
             }
 
         } 
