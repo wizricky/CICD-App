@@ -1,16 +1,38 @@
-node {
-    def app
-    stage('Clone repository') {
-        checkout scm
+pipeline { 
+    environment { 
+        registry = "ristekimov/cicdapp" 
+        registryCredential = 'dockerhub' 
+        dockerImage = '' 
+
     }
-    stage('Build image') {
-       app = docker.build("ristekimov/cicdapp")
-    }
-    stage('Push image') {   
-        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-            app.push("${env.BRANCH_NAME}-${env.BUILD_NUMBER}")
-            app.push("${env.BRANCH_NAME}-latest")
-            // signal the orchestrator that there is a new version
+    agent any 
+    stages { 
+        stage('Cloning our Git') { 
+            steps { 
+                    git 'https://github.com/wizricky/CICD-App.git' 
+            }
+
+        } 
+        stage('Building our image') { 
+            steps { 
+                script { 
+                    dockerImage = docker.build registry + ":$BUILD_NUMBER" 
+                }
+            } 
         }
+        stage('Deploy our image') { 
+            steps { 
+                script { 
+                    docker.withRegistry( '', registryCredential ) { 
+                        dockerImage.push() 
+                    }
+                } 
+            }
+        } 
+        stage('Cleaning up') { 
+            steps { 
+                sh "docker rmi $registry:$BUILD_NUMBER" 
+            }
+        } 
     }
 }
