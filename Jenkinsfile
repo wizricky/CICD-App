@@ -1,23 +1,22 @@
-node {    
-      def app     
-      stage('Clone repository') {               
-             
-            checkout scm    
-      }     
-      stage('Build image') {         
-       
-            app = docker.build("ristekimov/cicdapp")    
-       }     
-      stage('Test image') {           
-            app.inside {            
-             
-             sh 'echo "Tests passed"'        
-            }    
-        }     
-       stage('Push image') {
-        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {            
-       app.push("${env.BUILD_NUMBER}")            
-       app.push("latest")        
-              }    
-           }
-        }
+pipeline{
+      agent any
+      stages{
+            stage("build"){
+                  steps{
+                        echo 'building this app'
+                  }
+            }
+
+            stage("test"){
+                  steps{
+                        echo 'testing this app'
+                  }
+            }
+
+            stage("deploy"){
+                  steps{
+                        echo 'deploying this app'
+                  }
+            }
+      }
+}
